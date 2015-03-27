@@ -1,0 +1,81 @@
+/* custom stylesheet 
+import bootstrap css file
+*/
+
+@import "bootstrap/css/bootstrap.css";
+@import "bootstrap/css/bootstrap.min.css";
+
+
+/* my custom styles*/
+.page-header{
+	margin-top:0;
+}
+
+.panel-body{
+	padding-top:0;
+}
+
+.fimg{
+	margin-bottom:15px;
+}
+
+h1{
+	color: #000000;
+	font-size: 70px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+
+
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 2500px;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+
+.row1{
+	width: 1350px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn{
+    float: right;
+  margin-top: -100px;
+  margin-left: 120px;
+  margin-right: 380px;
+  width: 180px;
+  height: 40px;  
+    
+}
+
+.btn:hover{
+    background-color:black;
+    color: mediumturquoise; 
+    
+}
+
+.btn{background-color:black;}
+
+
+.jumbotron{
+    background-color:mediumturquoise;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.list-group{
+font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+h4 {font-family: 'Raleway', sans-serif;}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+}

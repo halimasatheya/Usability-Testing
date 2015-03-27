@@ -1,0 +1,171 @@
+/* custom stylesheet 
+import bootstrap css file
+*/
+
+@import "bootstrap/css/bootstrap.css";
+@import "bootstrap/css/bootstrap.min.css";
+
+
+/* my custom styles*/
+#index p.third {
+	color: white;
+}
+
+
+#index p.fourth {
+	color: white;
+}
+
+.page-header{
+	margin-top:0;
+}
+
+.panel-body{
+	padding-top:0;
+}
+
+.fimg{
+	margin-bottom:25px;
+	position: block;
+	width: 750px;
+	height: 550px;
+	margin-left: 30px;
+    float:right;
+}
+
+.fimg1{
+	margin-bottom:25px;
+	display: block;
+	width: 750px;
+	height: 550px;
+	margin: 0 auto;
+}
+
+.fimg2{
+	margin-bottom:25px;
+	display: block;
+	width: 730px;
+	height: 530px;
+	margin-left: auto;
+	margin-right: auto;
+    float:right;
+}
+
+
+
+
+h1{
+	color: #000000;
+	font-size: 70px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+
+
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 2500px;
+    }
+}
+
+
+.row1{
+	width: 1650px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p.first{
+	
+	text-align: left;
+	font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p.second{
+	
+	text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+h4{
+	font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2{
+	text-align: center;
+	text-indent: 25px;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+p.second{
+	font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p.third{
+	font-size: 24px;
+	padding: 15px;
+	background-color: mediumturquoise;
+	margin-top: 15px;
+	width: 400px;
+    font-family: 'Raleway', sans-serif;
+    float:left;
+}
+
+p.text-center{
+	font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p.fourth{
+	font-size: 24px;
+	padding: 15px;
+	margin-top: 15px;
+	width: 500px;
+    font-family: 'Raleway', sans-serif;
+	
+}
+
+
+.content1{
+    float: left;
+	margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content2{
+	float: initial;
+    margin-bottom: 100px;
+    font-family: 'Raleway', sans-serif;
+	
+}
+
+.content4{
+	float: left;
+	width: 500px;
+	background-color:mediumturquoise;
+	margin-left: 10px;
+	margin-right: 50px;
+    font-family: 'Raleway', sans-serif;
+	
+}
+
+
+.content5{
+	width: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.jumbotron{
+    background-color:mediumturquoise;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
